@@ -16,14 +16,14 @@ Just clone the repo and run screenshot.sh with the following *required* paramete
 This will screenshot Safari window region x=0, y=0 with width 1440 and height 900 (starting from top left),  put the screenshot in the current folder then press the right arrow (key code 234), 2 times 
   
 #### Help
-`./screenshot.sh`
+`./screenshot.sh`  
 <code>
-        -a The name of the applicaton i.e. 'Safari'
-        -f The folder to save all the screenshots to without trailing \/
-        -n Number of times to loop, this will be how many pages/items you want to capture
-        -r Region to capture comma separated: x,y,width,height
-        -k Key to press in between each screenshot, in MacOS keycode
-                common keycodes: 234 -> right arrow, 235 -> down arrow
+        -a The name of the applicaton i.e. 'Safari'  
+        -f The folder to save all the screenshots to without trailing \/  
+        -n Number of times to loop, this will be how many pages/items you want to capture  
+        -r Region to capture comma separated: x,y,width,height  
+        -k Key to press in between each screenshot, in MacOS keycode  
+                common keycodes: 234 -> right arrow, 235 -> down arrow  
 </code>
 ## Note
 This tool *only* works on MacOS
