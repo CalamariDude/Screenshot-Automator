@@ -12,7 +12,7 @@ Just clone the repo and run screenshot.sh with the following *required* paramete
 -k key_to_press</code></pre>
 
 #### Example
-`./screenshot.sh -a Safari -f . -n 2 -r 0,0,1440,900 -k 234`
+`./screenshot.sh -a Safari -f . -n 2 -r 0,0,1440,900 -k 234`  
 This will screenshot Safari window region x=0, y=0 with width 1440 and height 900 (starting from top left),  put the screenshot in the current folder then press the right arrow (key code 234), 2 times 
   
 #### Help
@@ -26,7 +26,7 @@ This will screenshot Safari window region x=0, y=0 with width 1440 and height 90
         common keycodes: 234 -> right arrow, 235 -> down arrow  
 </code></pre>
 ## Note
-This tool *only* works on MacOS
+This tool *only* works on MacOS  
 If this helped you please *star* this repo :)
 
 ## Disclaimer
